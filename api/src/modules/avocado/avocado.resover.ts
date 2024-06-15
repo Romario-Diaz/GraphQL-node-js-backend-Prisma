@@ -1,14 +1,15 @@
 import { createHash } from 'crypto'
 import { baseModelResolver } from '../base/base.resolver'
-import { Avocado } from './avocado.model'
+// import { Avocado } from './avocado.model'
+import type { Avocado } from '@prisma/client'
 
 const avos: Avocado[] = [
   {
     createdAt: new Date(),
-    updatedAt: undefined,
-    deletedAt: undefined,
+    updatedAt: null,
+    deletedAt: null,
     name: 'Pinkerton Avocado',
-    id: 'snoihekd',
+    id: 1,
     sku: 'BJSJHH3',
     price: 1.27,
     image: '/images/pinkerton.jpg',
