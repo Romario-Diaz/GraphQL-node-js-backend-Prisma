@@ -12,8 +12,8 @@ type Mutation {
 interface BaseModel {
   id: ID!
   createdAt: DateTime!
-  updatedAt: Datetime
-  deletedAt: Datetime
+  updatedAt: DateTime
+  deletedAt: DateTime
 }
 
 type Attributes {
@@ -26,8 +26,8 @@ type Attributes {
 type Avocado implements BaseModel {
   id:ID!
   createdAt: DateTime!
-  updatedAt: Datetime
-  deletedAt: Datetime
+  updatedAt: DateTime
+  deletedAt: DateTime
 
   name: String!
   sku: String!

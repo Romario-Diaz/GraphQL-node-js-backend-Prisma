@@ -1,4 +1,4 @@
-import * as avo from './modules/avocado/avocado.resolver'
+import * as avo from './modules/avocado/avocado.resover'
 import * as scalars from './modules/base/scalars.model'
 
 export default {
